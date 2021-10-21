@@ -17,3 +17,4 @@ df = spark.read.csv("/Users/dileepreddy/Downloads/testdata1.csv", header=True, s
 #f = spark.read.csv(url)
 #df.printSchema()
 df.show(5)
+df.show(10)
